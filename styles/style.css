@@ -134,7 +134,7 @@ main{
 .users{
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
-    margin: 116px auto;
+    margin: 116px auto 0;
     padding: 50px 0;
 }
 
@@ -162,3 +162,69 @@ main{
 .user-title{
     font-size: 20px;
 }
+
+
+/* review section style */
+
+.reviews{
+    margin: 137px 0 0;
+}
+
+.review-section-heading{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.total-review{
+    display: flex;
+    margin: 50px 0 0;
+    justify-content: space-around;
+}
+
+.review{
+    padding: 24px;
+    margin-right: 20px;
+}
+
+
+.review-heading{
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 24px;
+    color: rgba(30, 30, 30, 1);
+}
+
+.review-detail{
+    font-size: 16px;
+    /* font-weight: 600; */
+    padding-top: 8px;
+    color: rgba(30, 30, 30, 1);
+}
+
+.re-im-na-da{
+    display: flex;
+    padding-top: 24px;
+}
+
+
+.reviewer{
+    border-radius: 50%;
+    padding: 0 12px 6px 0;
+}
+
+.reviewer-name{
+    font-size: 16;
+    font-weight: 900px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.review-date{
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 2px;
+    color: rgba(179, 179, 179, 1);
+}
+
+
+
