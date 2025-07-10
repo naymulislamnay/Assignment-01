@@ -9,9 +9,49 @@
 
 /* CSS code for Raleway font */
 
-
 .raleway-regular {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
     font-style: normal;
+}
+
+
+/* set universal margin padding to Zero */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Shared Styles */
+
+.text-color-blue{
+    color: #4E47FF;
+}
+
+
+.btn-primary{
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    color: white; 
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px; 
+}
+
+
+/* nav bar style */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+.top-logo{
+    font-size: 34px;
+    font-weight: 900;
 }
