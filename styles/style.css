@@ -53,14 +53,24 @@
 }
 
 
+/* header bg style (image) */
+
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    height: 698px;
+    margin: 0;
+}
+
+
 /* nav bar style */
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    padding: 50px 150px;
 }
+
 
 .top-logo{
     font-size: 34px;
@@ -73,11 +83,16 @@ nav{
 .banner-content{
     font-size: 65px;
     font-weight: bold;
+    /* display: block;
+    text-align: center; */
+    display: flex;
     text-align: center;
+    justify-content: center;
+    margin: 158px 0 0;
 }
 
 
 .sf-btn{
     display: block;
-    margin: 49px auto 0;
+    margin: 37px auto 0;
 }
