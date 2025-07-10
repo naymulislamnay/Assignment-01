@@ -30,6 +30,17 @@
     color: #4E47FF;
 }
 
+.text-color-black1{
+    color: #252432;
+}
+
+.text-color-black2{
+    color: rgba(37, 36, 50, 0.5);
+}
+
+.text-color-black3{
+    color: rgba(0, 0, 0, 0.5);
+}
 
 .btn-primary{
     background-color: #4E47FF;
@@ -54,4 +65,19 @@ nav{
 .top-logo{
     font-size: 34px;
     font-weight: 900;
+}
+
+
+/* banner style */
+
+.banner-content{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.sf-btn{
+    display: block;
+    margin: 49px auto 0;
 }
