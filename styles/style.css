@@ -1,0 +1,17 @@
+/* CSS code fot Inter font */
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* CSS code for Raleway font */
+
+
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+    font-style: normal;
+}
