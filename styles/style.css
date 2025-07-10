@@ -23,6 +23,11 @@
     padding: 0px;
 }
 
+body {
+  background-color: #ddedfc;
+}
+
+
 
 /* Shared Styles */
 
@@ -226,5 +231,34 @@ main{
     color: rgba(179, 179, 179, 1);
 }
 
+/* focus better section */
+
+.focus-better{
+    background-color: #FFFFFF;
+    margin: 137px 0 0;
+    padding: 71px 0;
+}
+
+.focus-header{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.focus-title{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Get-started-btn{
+    display: block;
+    margin: 20px auto 0;
+}
 
 
+.focus-image{
+    display: block;
+    border-radius: 48px;
+    margin: 20px auto 0;
+}
