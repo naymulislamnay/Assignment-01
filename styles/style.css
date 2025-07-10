@@ -262,3 +262,60 @@ main{
     border-radius: 48px;
     margin: 20px auto 0;
 }
+
+/* get in Touch style */
+
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 71px 0;
+}
+
+.touch-heading{
+    font-size: 97px;
+    font-weight: bold;
+    width: 50%;
+}
+
+/* .touch-form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+::placeholder{
+    font-size: 20px;
+    padding: 20px 379px 20px 32px;
+    color: rgba(0, 0, 0, 0.5);
+} */
+
+textarea{
+    resize: none;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input, textarea{
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    font-size: 20px;
+    padding: 20px 32px;
+    width: 85%;
+    margin-bottom: 19px;
+    border: none;
+}
+
+.get-touch-btn{
+    width: 100%;
+}
+
