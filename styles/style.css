@@ -96,3 +96,36 @@ nav{
     display: block;
     margin: 37px auto 0;
 }
+
+
+/* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* action section style */
+
+.action{
+    display: flex;
+    margin: 116px 0 0;
+}
+
+.action-heading{
+    font-size: 42px;
+    font-weight: bold;
+    margin: 62.5px 0 0;
+}
+
+.action-description{
+    font-size: 24px;
+    font-weight: 400px;
+    margin: 23px 0;
+    padding-right: 220px;
+}
+
+.action-image{
+    border-radius: 48px;
+}
+
+
