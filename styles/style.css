@@ -320,3 +320,45 @@ input, textarea{
 }
 
 
+/* footer section styles */
+footer{
+    background-color: white;
+    margin-top: 14px;
+    padding: 104px 0;
+}
+
+.footer-content{
+    width: 531px;
+    margin: 0 auto;
+}
+
+.footer-logo{
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 8px;
+    color: rgba(137, 135, 161, 1);
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(160, 135, 161, 1);
+}
