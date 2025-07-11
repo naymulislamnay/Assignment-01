@@ -57,6 +57,12 @@ body {
     border-radius: 10px; 
 }
 
+.btn-primary:hover{
+    background-color: #01AA6D;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 
 /* header bg style (image) */
 
@@ -190,6 +196,9 @@ main{
 .review{
     padding: 24px;
     margin-right: 20px;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 2px 2px 10px black;
 }
 
 
@@ -314,6 +323,7 @@ input, textarea{
     margin-bottom: 19px;
     border: none;
 }
+
 
 .get-touch-btn{
     width: 100%;
